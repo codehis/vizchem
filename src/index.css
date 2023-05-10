@@ -1,0 +1,1429 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+   */
+   font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.for {
+  text-align: center;
+  font-size: 31px;
+}
+.hmenu {
+  display: none;
+}
+.mobile-menu {
+  display: none;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  /* background-image: linear-gradient(rgba(124, 190, 138, 0.7),rgba(135, 214, 133, 0.7)),url('./component/logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: white;
+}
+.logo {
+  margin-top: 0.5%;
+}
+.logo img {
+  height: 62px;
+}
+.menu {
+  margin-top: 2%;
+  display: flex;
+}
+
+.menu a {
+  color: black;
+  padding: 0px 17px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.mobile-menu {
+  display: none;
+}
+.mobile {
+  display: none;
+  margin-top: 3%;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+/* body{
+  width: 100%;
+  height: 650px;
+  background-image:url(background.jpg);
+  background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+
+} */
+.foot {
+  background: white;
+  color: black;
+  margin-left: 9%;
+  margin-top: 3%;
+}
+.heading {
+  text-align: center;
+}
+.discreption-1 img {
+  width: 50%;
+}
+.discreption-1 {
+  margin-bottom: 2%;
+  width: 100%;
+  display: flex;
+}
+.moto-of-company {
+  margin-bottom: 2%;
+  width: 50%;
+}
+.appication-area {
+  margin-bottom: 2%;
+  width: 50%;
+}
+
+
+.main-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  background: white
+
+ 
+}
+.cards {
+  margin: 1%;
+  width: 25%;
+  background: white
+}
+.card {
+  width: 100%;
+
+  background-color: whitesmoke;
+  border-radius: 3%;
+}
+.title,
+.card-button {
+  text-align: center;
+  margin: 2px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 3%;
+}
+button {
+  font-size: 20px;
+  border-radius: 9%;
+  cursor: pointer;
+  border: 1px solid;
+}
+.home-body {
+  
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+ 
+}
+
+.email {
+  width: 100%;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.email img {
+  width: 20px;
+}
+.email li {
+  list-style: none;
+  margin: 9px;
+}
+.email li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 7%;
+}
+.email li a:hover {
+  text-decoration: underline;
+}
+
+.containt {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3%;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  margin-top: 0px;
+}
+.discrip {
+  width: 50%;
+  margin-top: 3%;
+  margin-left: -25%;
+  margin-right: 36px;
+  text-align: justify;
+  font-size: 20px;
+}
+hr {
+  margin: 3px;
+}
+.picture {
+  border-radius: 0%;
+  width: 77%;
+  margin-left: 6%;
+}
+.picture img {
+      width: 45%;
+    margin-top: 2%;
+}
+
+/* .fill_form {
+  width: 100%;
+} */
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 0px;
+  margin: 1%;
+}
+
+label {
+  font-weight: bold;
+}
+/* .contact_body {
+  background-color: whitesmoke;
+} */
+.contact {
+  background-color: rgb(215, 45, 45);
+}
+.mobile-number {
+  height: 0px;
+  /* background-color: rgb(90, 87, 87); */
+  width: 0%;
+}
+
+.mobile-number li {
+  list-style: none;
+  float: right;
+  margin: 5%;
+  background-color: rgb(90, 87, 87);
+}
+hr {
+  margin: 0px 0px;
+}
+#chat {
+  border: none;
+  background: rgb(93, 94, 94);
+  color: white;
+  position: fixed;
+  bottom: 27px;
+  right: 20px;
+  border-radius: 38px;
+}
+.row {
+  margin-right: calc(-0 * var(--bs-gutter-x));
+}
+
+#chat img {
+  width: 60px;
+  background-color: rgb(90, 87, 87);
+  border-radius: 89px;
+}
+@media screen and (max-width: 648px) {
+  .about {
+    width: 100%;
+  }
+  /* .admin{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  } */
+  .info {
+    margin-left: 5%;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 3%;
+    border: 2px solid burlywood;
+  }
+  .info li {
+    list-style: none;
+  }
+  .core {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 4%;
+    border: 2px solid black;
+  }
+
+  /* .photo{
+    width: 100%;
+  } */
+  .info img {
+    width: 100%;
+    height: 300px;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  /*   
+.nav-bar-Mobile{
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  background-color: whitesmoke;
+  width: 50%;
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mobile-menu li {
+  list-style: none;
+}
+.mobile-menu a {
+  color: black;
+  padding:0px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.mobile-menu a:hover {
+  text-decoration: underline;
+} */
+  .menu {
+    display: none;
+  }
+  .nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background: rgb(134, 168, 172);
+  }
+  .logo {
+    margin-top: 0.5%;
+  }
+  .logo img {
+    width: 100px;
+    height: 60px;
+    margin-left: -85%;
+  }
+
+  .hmenu {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+
+    bottom: 2rem;
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+
+    opacity: 0;
+    position: relative;
+    top: -11px;
+    width: 100%;
+    height: 500px;
+
+    align-items: center;
+  }
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+
+    bottom: 2rem;
+
+    width: 100%;
+    background: white;
+    transform: translateX(0);
+    transition: all 0.5s linear;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+    height: 500px;
+    position: relative;
+    z-index: 999;
+    top: -8px;
+  }
+  .go {
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+
+    z-index: 99;
+  }
+
+  .mobile-menu a {
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .hmenu a {
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+
+  .mobile {
+    display: block;
+    margin-top: 4%;
+
+    margin-right: -23%;
+  }
+
+  .menu a {
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  /* body{
+    width: 100%;
+    height: 650px;
+    background-image:url(background.jpg);
+    background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  } */
+
+  .heading {
+    text-align: center;
+  }
+  .discreption-1 img {
+    width: 50%;
+  }
+  .discreption-1 {
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+  }
+  .foot {
+    background: white;
+    color: black;
+  }
+  .moto-of-company {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .appication-area {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+  }
+  .main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+    background: white;
+    color: black;
+  }
+
+  .cards {
+    margin: 2%;
+    width: 80%;
+    background: white;
+    color: black;
+  }
+  .card {
+    width: 100%;
+    font-weight: 500;
+    background: white;
+    color: black;
+    border-radius: 3%;
+  }
+  .for {
+    text-align: center;
+    font-size: 31px;
+  }
+  .title,
+  .card-button {
+    text-align: center;
+    margin: 2px;
+  }
+  .card-button {
+    width: 40%;
+    height: 30px;
+  }
+  .indus {
+    background: white;
+    color: black;
+  }
+  .card-button li {
+    list-style: none;
+  }
+  .card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 3%;
+  }
+  button {
+    font-size: 20px;
+    border-radius: 9%;
+    cursor: pointer;
+    border: 1px solid;
+  }
+  .home-body {
+    width: 100%;
+
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-polygonal-chemical-molecule-poster-background-image_125106.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: white;
+    color: black;
+  }
+  .email {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .email img {
+    width: 20px;
+  }
+  .email li {
+    list-style: none;
+    margin: 1px;
+  }
+  .email li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 7%;
+  }
+  .email li a:hover {
+    text-decoration: underline;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .containt {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    width: 100%;
+  }
+  .discrip {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .picture {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 1%;
+  }
+  .picture img {
+    border-radius: 2px;
+    width: 99%;
+    /* margin-top: 2%; */
+  }
+  /* .fill_form {
+    width: 100%;
+  } */
+  form {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  input {
+    width: 100%;
+    height: 39px;
+    padding: 8px 0px;
+    margin: 1%;
+  }
+  #message {
+    height: 200px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+  /* .contact_body {
+    background-color: whitesmoke;
+    width: 100%;
+  } */
+  .mobile-number {
+    height: 0px;
+    /* background: green; */
+    width: 0%;
+  }
+  .mobile-number li {
+    list-style: none;
+    float: right;
+    margin: 5%;
+  }
+  hr {
+    margin: 0px 0px;
+  }
+ 
+  #chat {
+    border: none;
+    background: rgb(93, 94, 94);
+    color: white;
+    position: fixed;
+    bottom: 27px;
+    right: 20px;
+    border-radius: 38px;
+  }
+  #chat img {
+    width: 60px;
+    background-color: rgb(90, 87, 87);
+    border-radius: 89px;
+  }
+}
+@media screen and (min-width: 854px) and (max-width: 1179px) {
+  .about {
+    width: 100%;
+  }
+  .admin {
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  }
+  .info {
+    margin-left: 4%;
+    font-size: 20px;
+    width: 50%;
+  }
+  .info li {
+    list-style: none;
+    width: 72%;
+  }
+
+  .photo {
+    width: 40%;
+  }
+  .photo img {
+    width: 100%;
+    height: 300px;
+  }
+  .discreption-1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    font-size: 15px;
+  }
+  .oxi {
+    width: 40%;
+    margin: 3%;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  /*   
+.nav-bar-Mobile{
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  background-color: whitesmoke;
+  width: 50%;
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mobile-menu li {
+  list-style: none;
+}
+.mobile-menu a {
+  color: black;
+  padding:0px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.mobile-menu a:hover {
+  text-decoration: underline;
+} */
+  .menu {
+    display: block;
+    margin-top: 4.5%;
+  }
+  .nav-bar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    margin-top: 0.5%;
+
+    
+  }
+  .logo img {
+    margin-top: 5%;
+    height: 82px;
+  }
+  .hmenu {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 6%;
+    margin-left: 2%;
+  }
+  .mobile {
+    display: none;
+    margin-top: 9%;
+    margin-right: -23%;
+  }
+
+  .menu a {
+    color: black;
+    padding: 0px 22px;
+    text-decoration: none;
+    font-size: 21px;
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  .go{
+    display: none;
+  }
+  
+
+  .heading {
+    text-align: center;
+  }
+  .discreption-1 img {
+    width: 50%;
+  }
+  .discreption-1 {
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+  }
+  .moto-of-company {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .appication-area {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .foot {
+    background: white;
+    color: black;
+  }
+  .nav-bar {
+    background-color: white;
+  }
+  .main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+    background: white;
+    color: black;
+  }
+
+  .cards {
+    margin: 2%;
+    width: 29%;
+    background: white;
+    color: black;
+  }
+  .card {
+    width: 100%;
+
+    background:whitesmoke;
+    color: black;
+    border-radius: 3%;
+  }
+  .title,
+  .card-button {
+    text-align: center;
+    margin: 2px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 3%;
+  }
+  button {
+    font-size: 20px;
+    border-radius: 9%;
+    cursor: pointer;
+    border: 1px solid;
+  }
+  .home-body {
+    width: 100%;
+
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-polygonal-chemical-molecule-poster-background-image_125106.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: white;
+    color: black;
+  }
+  .email {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .h2 {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .email img {
+    width: 20px;
+  }
+  .email li {
+    list-style: none;
+    margin: 1px;
+  }
+  .email li a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 7%;
+  }
+  .email li a:hover {
+    text-decoration: underline;
+  }
+
+  .containt {
+    display: flex;
+    width: 100%;
+  }
+  .discrip {
+    width: 55%;
+    margin-top: 7%;
+    margin-left: 3%;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .picture {
+    width: 38%;
+    margin-top: -8%;
+  }
+  .picture img {
+    border-radius: 0%;
+    width: 99%;
+    margin-top: 22%;
+  }
+  /* .fill_form {
+    width: 100%;
+  } */
+  form {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  input {
+    width: 100%;
+    height: 39px;
+    padding: 8px 0px;
+    margin: 1%;
+  }
+  #message {
+    height: 200px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+  /* .contact_body {
+    background-color: whitesmoke;
+    width: 100%;
+  } */
+  .mobile-number {
+    height: 100px;
+
+    width: 100%;
+  }
+  .mobile-number li {
+    list-style: none;
+    float: right;
+    margin: 5%;
+  }
+  hr {
+    margin: 0px 0px;
+  }
+  #chat {
+    border: none;
+    background: rgb(93, 94, 94);
+    color: white;
+  }
+  #chat img {
+    width: 60px;
+    background: rgb(93, 94, 94);
+    color: white;
+  }
+  .mobile-menu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    background: whitesmoke;
+
+    bottom: 2rem;
+  }
+  .mobile-menu a {
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .about {
+    width: 100%;
+  }
+  .admin {
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  }
+  .info {
+    margin-left: 4%;
+    font-size: 20px;
+    width: 50%;
+  }
+  .info li {
+    list-style: none;
+    width: 72%;
+  }
+
+  .photo {
+    width: 40%;
+  }
+  .photo img {
+    width: 100%;
+    height: 300px;
+  }
+  .discreption-1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 14px;
+  }
+  .oxi {
+    width: 41%;
+    margin: 3%;
+  }
+}
+@media screen and (min-width: 648px) and (max-width: 862px) {
+  .about {
+    width: 100%;
+  }
+  .admin {
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  }
+  .info {
+    margin-left: 5%;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 3%;
+  }
+  .info li {
+    list-style: none;
+  }
+  .core {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4%;
+  }
+
+  .photo {
+    width: 40%;
+  }
+  .photo img {
+    width: 100%;
+    height: 300px;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  /*   
+.nav-bar-Mobile{
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  background-color: whitesmoke;
+  width: 50%;
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mobile-menu li {
+  list-style: none;
+}
+.mobile-menu a {
+  color: black;
+  padding:0px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.mobile-menu a:hover {
+  text-decoration: underline;
+} */
+  .menu {
+    display: none;
+  }
+  .nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background: white;
+  }
+  /* .logo {
+    
+  } */
+  .logo img {
+    width: 134px;
+    height: 79px;
+  }
+  .hmenu {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 6%;
+    margin-left: 2%;
+    display: none;
+  }
+  .mobile {
+    display: block;
+    margin-top: 4%;
+
+    margin-right: -23%;
+  }
+
+  .menu a {
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  /* body{
+    width: 100%;
+    height: 650px;
+    background-image:url(background.jpg);
+    background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  } */
+
+  .heading {
+    text-align: center;
+  }
+  .discreption-1 img {
+    width: 50%;
+  }
+  .discreption-1 {
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+  }
+  .moto-of-company {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .appication-area {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+ 
+  .main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+    background: white;
+    color: black;
+  }
+
+  .cards {
+    background: white;
+    color: black;
+    margin: 2%;
+    width: 39%;
+  }
+  .card {
+    width: 100%;
+
+    background: whitesmoke;
+    color: black;
+    border-radius: 3%;
+  }
+  .foot {
+    background: white;
+    color: black;
+  }
+  .title,
+  .card-button {
+    text-align: center;
+    margin: 2px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 3%;
+  }
+  button {
+    font-size: 20px;
+    border-radius: 9%;
+    cursor: pointer;
+    border: 1px solid;
+  }
+  .home-body {
+    width: 100%;
+
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-polygonal-chemical-molecule-poster-background-image_125106.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+   background-color: white;
+   color: black;
+  }
+  .email {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .email img {
+    width: 20px;
+  }
+  .email li {
+    list-style: none;
+    margin: 1px;
+  }
+  .email li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 7%;
+  }
+  .email li a:hover {
+    text-decoration: underline;
+  }
+
+  .containt {
+    display: flex;
+    width: 100%;
+  }
+  .discrip {
+    width: 50%;
+    margin-top: 6%;
+    margin-left: 3%;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .picture {
+    width: 50%;
+    margin-top: 0%;
+  }
+  .picture img {
+    border-radius: 1%;
+    width: 100%;
+    margin-top: 22%;
+  }
+  .h2 {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  /* .fill_form {
+    width: 100%;
+  } */
+  form {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  input {
+    width: 100%;
+    height: 39px;
+    padding: 8px 0px;
+    margin: 1%;
+  }
+  #message {
+    height: 200px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+  /* .contact_body {
+    background-color: whitesmoke;
+    width: 100%;
+  } */
+  .mobile-number {
+    height: 0px;
+    background: green;
+    width: 0;
+  }
+  .mobile-number li {
+    list-style: none;
+    float: right;
+    margin: 5%;
+  }
+  hr {
+    margin: 0px 0px;
+  }
+  #chat {
+    border: none;
+    background: rgb(93, 94, 94);
+    color: white;
+  }
+  #chat img {
+    width: 60px;
+    background: rgb(93, 94, 94);
+    color: white;
+  }
+  /* .mobile-menu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    background: whitesmoke;
+
+    bottom: 2rem;
+  } */
+  /* .mobile-menu a {
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 20px;
+  } */
+  .about {
+    width: 100%;
+  }
+  .admin {
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  }
+  .info {
+    margin-left: 4%;
+    font-size: 20px;
+    width: 50%;
+  }
+  .info li {
+    list-style: none;
+    width: 72%;
+  }
+
+  .photo {
+    width: 40%;
+  }
+  .photo img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .hmenu {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+
+    bottom: 2rem;
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+
+    opacity: 0;
+    position: relative;
+    top: -11px;
+    width: 100%;
+    height: 500px;
+
+    align-items: center;
+  }
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+
+    bottom: 2rem;
+
+    width: 100%;
+    background: white;
+    transform: translateX(0);
+    transition: all 0.5s linear;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+    height: 500px;
+    position: relative;
+    z-index: 999;
+    top: -8px;
+  }
+  .go {
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+
+    z-index: 99;
+  }
+
+  .mobile-menu a {
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .hmenu a {
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .discreption-1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    font-size: 14px;
+  }
+  .oxi {
+    width: 54%;
+    margin: 3%;
+  }
+}
+.about {
+  width: 100%;
+}
+.admin {
+  margin-top: 3%;
+  display: flex;
+  width: 100%;
+}
+.info {
+  margin-left: 5%;
+  font-size: 20px;
+  width: 50%;
+  margin-top: 3%;
+}
+.info li {
+  list-style: none;
+}
+.core {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.photo {
+  width: 40%;
+}
+.photo img {
+  width: 100%;
+  height: 300px;
+}
+.discreption-1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  font-size: 15px;
+}
+.oxi {
+  width: 27%;
+  margin: 3%;
+}
