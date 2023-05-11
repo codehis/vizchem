@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vizchem/static/css/main.b6207921.css",
-    "main.js": "/vizchem/static/js/main.fadf12bd.js",
+    "main.js": "/vizchem/static/js/main.e7cac7aa.js",
     "static/js/787.8b3ca789.chunk.js": "/vizchem/static/js/787.8b3ca789.chunk.js",
     "static/media/logo.png": "/vizchem/static/media/logo.aeb6d3be7cb72f812be3.png",
     "static/media/home-img.jpg": "/vizchem/static/media/home-img.54bd7a04dba77864cd48.jpg",
     "index.html": "/vizchem/index.html",
     "main.b6207921.css.map": "/vizchem/static/css/main.b6207921.css.map",
-    "main.fadf12bd.js.map": "/vizchem/static/js/main.fadf12bd.js.map",
+    "main.e7cac7aa.js.map": "/vizchem/static/js/main.e7cac7aa.js.map",
     "787.8b3ca789.chunk.js.map": "/vizchem/static/js/787.8b3ca789.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6207921.css",
-    "static/js/main.fadf12bd.js"
+    "static/js/main.e7cac7aa.js"
   ]
 }
