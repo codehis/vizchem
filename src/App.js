@@ -24,13 +24,14 @@ const App = () => {
         <Route path="/Contact" Component={Contact} />
         {/* <Route path="/About" Component={About} /> */}
       </Routes>
-     {/* <hr />
+      
+      {/* <hr />
       <Industrial/>
       <hr />
       <Contact/>
-      <hr /> */}
+      <hr /> 
       <Whatsapp />
-      <Footer />
+      <Footer /> */}
     </React.Fragment>
   );
 };
